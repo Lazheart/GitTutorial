@@ -1,8 +1,5 @@
 # GitTutorial
-
-**GitTutorial** 
-
-This repository has the finality to show :
+**This repository** has the finality to show :
 
 - How config your GitHub account
 
