@@ -1,3 +1,11 @@
-## How first Step to use Git and GitHub
+## First Step to use Git and GitHub 
 
-- *Try to copy whole repository and then write something in here*
+- *This folder show and contain exercises to learn how use git propierly properly*
+
+
+# We recommend this route :
+
+- Basics: Use Git Terminal
+- Git : Pull-add- Commit - Push
+- Git : Clone - Branch - Merge
+
