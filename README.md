@@ -103,8 +103,10 @@ To connect your local Git environment to GitHub securely, you can use either HTT
 
 
 
+## Congratulations you can use Git and Github as GOD
+Dont forget to enter to folder exercise to practice and improve your dev skills :D
 
-
+*(Also see EXERCISE.md)*
 
 
 
