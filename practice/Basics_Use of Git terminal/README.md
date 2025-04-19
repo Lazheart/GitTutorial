@@ -1,35 +1,30 @@
-Claro, aquí tienes un archivo `.md` (Markdown) con una explicación clara y amigable de las funciones básicas de una terminal, ideal para incluir en un repositorio de GitHub:
+# Basic Terminal Commands 🖥️
+
+This document is a quick guide to learning some essential commands you can use in the Linux or macOS terminal. If you're just starting with the command line, this is for you!
 
 ---
 
-```markdown
-# Comandos Básicos de la Terminal 🖥️
-
-Este documento es una guía rápida para aprender algunos comandos esenciales que puedes usar en la terminal de Linux o macOS. Si estás empezando en el mundo de la línea de comandos, ¡esto es para ti!
-
----
-
-## 📁 `cd` - Cambiar de directorio
+## 📁 `cd` - Change Directory
 
 ```bash
-cd nombre_del_directorio
+cd directory_name
 ```
 
-- Te mueve al directorio especificado.
-- `cd ..` te lleva al directorio anterior.
-- `cd` sin argumentos te lleva al directorio home.
+- Moves you into the specified directory.  
+- `cd ..` takes you to the previous directory.  
+- `cd` with no arguments takes you to your home directory.
 
-**Ejemplo:**
+**Example:**
 
 ```bash
-cd Documentos
+cd Documents
 cd ..
-cd ~/Escritorio
+cd ~/Desktop
 ```
 
 ---
 
-## 📄 `ls` - Listar archivos y carpetas
+## 📄 `ls` - List Files and Folders
 
 ```bash
 ls
@@ -37,11 +32,11 @@ ls -l
 ls -a
 ```
 
-- `ls`: muestra los archivos y carpetas en el directorio actual.
-- `-l`: muestra detalles como permisos y fechas.
-- `-a`: incluye archivos ocultos (los que comienzan con `.`).
+- `ls`: shows the files and folders in the current directory.  
+- `-l`: shows details like permissions and dates.  
+- `-a`: includes hidden files (those starting with `.`).
 
-**Ejemplo:**
+**Example:**
 
 ```bash
 ls -la
@@ -49,81 +44,81 @@ ls -la
 
 ---
 
-## 🧼 `clear` - Limpiar la terminal
+## 🧼 `clear` - Clear the Terminal
 
 ```bash
 clear
 ```
 
-- Limpia todo el texto visible en la terminal.
+- Clears all visible text in the terminal.
 
 ---
 
-## 📖 `cat` - Mostrar contenido de un archivo
+## 📖 `cat` - Display File Content
 
 ```bash
-cat archivo.txt
+cat file.txt
 ```
 
-- Muestra el contenido del archivo directamente en la terminal.
+- Displays the content of the file directly in the terminal.
 
 ---
 
-## ✂️ `mv` - Mover o renombrar archivos y carpetas
+## ✂️ `mv` - Move or Rename Files and Folders
 
-### Renombrar:
+### Rename:
 
 ```bash
-mv archivo.txt nuevo_nombre.txt
+mv file.txt new_name.txt
 ```
 
-### Mover archivo a otra carpeta:
+### Move file to another folder:
 
 ```bash
-mv archivo.txt CarpetaDestino/
+mv file.txt DestinationFolder/
 ```
 
-**Ejemplo:**
+**Example:**
 
 ```bash
-mv notas.txt ../Documentos/
-mv vieja_carpeta nuevo_nombre
-```
-
----
-
-## 🗑️ `rm` - Eliminar archivos
-
-```bash
-rm archivo.txt
-```
-
-- Elimina un archivo. ⚠️ ¡No hay papelera de reciclaje!
-
-### Eliminar carpeta y todo su contenido:
-
-```bash
-rm -r Carpeta
+mv notes.txt ../Documents/
+mv old_folder new_name
 ```
 
 ---
 
-## ✍️ `vim` - Editor de texto en la terminal
+## 🗑️ `rm` - Delete Files
 
 ```bash
-vim archivo.txt
+rm file.txt
 ```
 
-### Pasos básicos:
+- Deletes a file. ⚠️ There's no recycle bin!
 
-1. Presiona `i` para **entrar en modo edición**.
-2. Escribe o edita el contenido.
-3. Presiona `Esc` para salir del modo edición.
-4. Escribe `:w` para **guardar**.
-5. Escribe `:q` para **salir**.
-6. O escribe `:wq` para **guardar y salir**.
+### Delete folder and all its content:
 
-### Salir sin guardar:
+```bash
+rm -r Folder
+```
+
+---
+
+## ✍️ `vim` - Text Editor in the Terminal
+
+```bash
+vim file.txt
+```
+
+### Basic Steps:
+
+1. Press `i` to **enter edit mode**.  
+2. Type or edit the content.  
+3. Press `Esc` to exit edit mode.  
+4. Type `:w` to **save**.  
+5. Type `:q` to **quit**.  
+6. Or type `:wq` to **save and quit**.
+
+### Quit without saving:
 
 ```bash
 :q!
@@ -131,16 +126,10 @@ vim archivo.txt
 
 ---
 
-> 💡 Tip: Si te pierdes en `vim`, presiona `Esc` unas veces y escribe `:q!` para salir sin guardar.
+> 💡 Tip: If you get lost in `vim`, press `Esc` a few times and type `:q!` to exit without saving.
 
 ---
 
-## ✅ ¡Listo!
+## ✅ All Set!
 
-Con estos comandos puedes navegar, editar, mover y eliminar archivos desde la terminal. Practica con cuidado y ¡no temas equivocarte!
-
----
-
-```
-
-¿Quieres que lo convierta también en PDF o en una tabla para usar como hoja de referencia rápida?
+With these commands, you can navigate, edit, move, and delete files from the terminal. Practice carefully and don’t be afraid to make mistakes!
