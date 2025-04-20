@@ -44,6 +44,22 @@ ls -la
 
 ---
 
+## 📄 `touch` - Create a New File
+
+```bash
+touch filename.txt
+```
+
+- Creates an empty file with the given name.  
+- If the file already exists, it updates the **last modified** timestamp without changing the content.
+
+**Example:**
+
+```bash
+touch notes.txt
+touch index.html
+```
+---
 ## 🧼 `clear` - Clear the Terminal
 
 ```bash
