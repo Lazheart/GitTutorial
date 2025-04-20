@@ -1,6 +1,6 @@
 # Basic Terminal Commands 🖥️
 
-This document is a quick guide to learning some essential commands you can use in the Linux or macOS terminal. If you're just starting with the command line, this is for you!
+This document is a quick guide to learning some essential commands you can use in Git terminal. If you're just starting with the command line, this is for you!
 
 ---
 
