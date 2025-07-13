@@ -10,7 +10,7 @@ These exercises will help you get hands-on experience with essential Git branchi
    ```bash
    git clone https://github.com/YOUR_USERNAME/git-practice.git
    cd git-practice
-````
+   ```
 
 2. Create a new branch:
 
