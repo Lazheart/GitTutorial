@@ -93,7 +93,7 @@ To connect your local Git environment to GitHub securely, you can use either HTT
     - Test your SSH connection :
 
         ```bash
-        cat ~/.ssh/id_ed25519.pub
+        ssh -T git@github.com
         ``` 
         **If is successfully you should see a message like**
         ```bash
